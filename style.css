@@ -1,6 +1,28 @@
 body{
-    background:rgb(10, 10, 107);
+    background:rgb(2, 2, 146);
     color:white;
     font-family:Georgia, 'Times New Roman', Times, serif;
     display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 700px;
+    margin: 0;
+}
+button{
+    backgroud:rgb(172, 3, 3);
+    color: beige;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+.passo{
+    display: none;
+}
+.passo-ativo{
+    display: block;
+}
+main{
+    text-align: center;
+    max-width: 90%;
+}
+img{
+    max-width: 90%;
 }
